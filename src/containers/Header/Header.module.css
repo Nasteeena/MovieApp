@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    width: var(--container-width);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.container {
+    margin: 0 auto;
+    width: var(--container-width);
+}
+
+.header{
+    background-color: var(--theme-default-header);
+}
+
+.header__name{
+    color: #fefae0;
+    text-shadow: var(--shadow-purple_white);
+}
+
+.header__btns{
+    display: flex;
+    align-items: center;
+}

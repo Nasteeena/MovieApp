@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+
+.container{
+    width: var(--container-width);
+    margin: 0 auto;
+}
+
+.filmInfo{
+    margin: 0 0 0 5em;
+}
+
+.filmInfo__name{
+    font-size: var(--font-size-large);
+}
+
+.skeleton {
+    margin-bottom: 10px;
+}

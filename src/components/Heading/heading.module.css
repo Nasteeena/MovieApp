@@ -1,0 +1,15 @@
+.header {
+    line-height: 44px;
+    color: var(--text-black-color);
+    color: white;
+}
+
+.h1 {
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 25px;
+    font-weight: 600;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,400;0,700;1,100;1,200;1,700&display=swap');
+
+:root {
+  --font-family-main: font-family: 'IBM Plex Mono', monospace;
+
+  --font-weight-bold: 700;
+  --font-weight-medium: 400;
+  --font-weight-thin: 100;
+  
+  --font-size-main: 16px;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 4rem;
+
+  --container-width: 85%;
+
+  --shadow-purple_white: 3px 3px 2px rgba(128, 42, 122, 0.3);
+
+  --transition: 1s ease 0s;
+
+  --margin-middle: 15px;
+  --margin-big: 20px;
+
+  /* THEME */
+
+  --theme-light-header: #cdb4db;
+  --theme-dark-header: #232529;
+  --theme-default-header: var(--theme-light-header);
+
+  --theme-dark-text: #000000;
+  --theme-light-text: #ffffff;
+  --theme-default-text: var(--theme-light-text);
+
+  --theme-light-background: #ffffff;
+  --theme-dark-background: #b5b5b579;
+  --theme-default-background: var(--theme-light-background);
+
+  --theme-light-button: var(--theme-light-header);
+  --theme-dark-button: var(--theme-dark-header);
+  --theme-default-button: var(--theme-light-header);
+
+  --theme-light-buttonHover: #e390ce;
+  --theme-dark-buttonHover: #3d3f42;
+  --theme-default-buttonHover: var(--theme-light-buttonHover);
+
+  --theme-light-card: #ffffff;
+  --theme-dark-card: #887456;
+  --theme-default-card: var(--theme-light-card);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-main);
+  background: var(--theme-default-background);
+}
+

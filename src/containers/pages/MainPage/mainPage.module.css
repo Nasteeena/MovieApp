@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    gap: 30px;
+    margin: var(--margin-middle);
+}
+
+.container{
+    margin: 0 auto;
+    width: var(--container-width);
+}
